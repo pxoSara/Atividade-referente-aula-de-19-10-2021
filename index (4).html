@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <script language="javascript">
+      function MD(){
+    var resu, soma, n1, n2, n3, n4;
+    
+      n1 = parseInt(document.getElementById('nmn1').value);
+      n2 = parseInt(document.getElementById('nmn2').value);
+      n3 = parseInt(document.getElementById('nmn3').value);
+      n4 = parseInt(document.getElementById('nmn4').value);
+
+
+      soma = n1 + n2 + n3 + n4;
+      resu = soma / 4;
+
+       document.write("a média aritmética é " + resu );
+      }
+
+     
+    </script>
+  
+  </head>
+  <body>
+    <form>
+    
+
+      digite o primeiro numero: <input type="number" id="nmn1"><br>
+      digite o segundo numero: <input type="number" id="nmn2"><br>
+      digite o terceiro numero: <input type="number" id="nmn3"><br>
+      digite o quarto numero: <input type="number" id="nmn4"><br>
+
+      <input type="button" value="média aritmética" onclick="MD();">
+
+
+    </form>
+  </body>
+</html>
